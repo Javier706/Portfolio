@@ -160,6 +160,26 @@ h6 {
   #imghero{
     display: none;
   }
+
+  .contact .info p{
+    padding: 0 0 0 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .textCopy{
+    font-size: 15px !important;
+  }
+  #imghero{
+    display: none;
+  }
+
+  .contact .info.p_2 p{
+    font-size: 10px !important;
+  }
 }
 
 .sobremi{
@@ -333,6 +353,9 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  .contact .info h2{
+    padding: 10px 0 2px 10px !important;
   }
 }
 
@@ -1129,6 +1152,7 @@ margin-left: 0px;
   justify-content: flex-start;
   flex-direction: row;
 }
+
 }
 
 
