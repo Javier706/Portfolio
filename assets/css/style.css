@@ -910,7 +910,7 @@ section {
 }
 
 .contact .info p {
-  padding: 0 0 10px 60px;
+  padding: 0 0 10px 10px;
   margin-bottom: 20px;
   font-size: 14px;
   color: #173b6c;
@@ -954,8 +954,17 @@ section {
   color: #fff;
 }
 
+.contact .info .companeros{
+margin-left: 0px;
+
+}
+.contact .info .companeros .img{
+ max-width: 50%;
+      margin-right: 20px;
+  
+  }
 .contact .info h2{
-  padding: 0 0 10px 60px;
+  padding: 0 0 10px 10px;
   margin-bottom: 0px;
   font-size: 20px;
 }
@@ -1110,7 +1119,19 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+.companeros {
+  display: flex;
+  flex-direction: column;
 }
+.icon-img {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
