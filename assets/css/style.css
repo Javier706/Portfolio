@@ -877,7 +877,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 20px;
 }
 
 .contact .info {
@@ -946,11 +946,19 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
+.contact .info .companeros:hover i,
+.contact .info .linkendin:hover i,
+.contact .info .github:hover i,
 .contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
 
+.contact .info h2{
+  padding: 0 0 10px 60px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
