@@ -688,18 +688,17 @@ section {
   gap: 20px;
 }
 .recomendacion {
-  height: 350px;
-  width: 267px;
-  border: 1px solid #000;
+
+  border: 1px solid #000; 
   transition: 1s;
 }
 .Recomendaciones{
   height: auto;
   padding-top: 30px;
 }
-.recomendacion__image {
-  width: 223px;
-  height: 348px;
+.recomendacion_image {
+  width: 250px;
+  height: 319px;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
